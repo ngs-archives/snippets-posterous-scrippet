@@ -17,7 +17,7 @@ Scrippets' persistent data are not stored secure. Those are readable from the ot
 
 ##BUGS AND FEEDBACKS
 
-Use [GitHub Issues](https://github.com/ngs/snippets-posterous-scrippet/issues) OR 'Fork', modify and 'Pull Request' me.
+Use [GitHub Issues](https://github.com/ngs/snippets-posterous-scrippet/issues) OR ' Fork ', modify and ' Pull Request ' me.
 
 
 ##AUTHOR
