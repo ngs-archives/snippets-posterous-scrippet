@@ -1,15 +1,26 @@
+var clipboardContents = [];
+
+function copyAll() {
+  if(clipboardContents.length) {
+    Scrippet.setClipboard(clipboardContents.join("\n"));
+    showNote( clipboardContents.length > 1 ?
+        "All snippet URLs have been copied to the Clipboard." : 
+        "Snippet URL has been copied to the Clipboard" );
+  }
+}
 
 function copyURL( URL, name ) {
   Scrippet.setClipboard(URL);
-  $("copy-note").innerHTML = "Snippet ‘" +
-                                    name +
-       "’ was copied into the Clipboard.";
+  showNote( "Snippet ‘" + name + "’ was copied into the Clipboard." );
+}
+
+function showNote( text ) {
+  $("copy-note").innerHTML = text;
 }
 
 function init(scrippet) {
   var
     snippets = Scrippet.getSnippets(),
-    clipboardContents = [],
     listContents = [];
     
   for (var i = 0; i < snippets.length; i++) {
