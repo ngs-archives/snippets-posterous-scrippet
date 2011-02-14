@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleIconFile</key>
+	<string>icon</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.snippetsapp.scrippets.Posterous</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>Share via Posterous</string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>0.1</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>ScrippetRole</key>
+	<string>Exporter</string>
+	<key>ScrippetSteps</key>
+	<array>
+		<dict>
+			<key>Name</key>
+			<string>Login</string>
+			<key>Source</key>
+			<string>input.html</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Authenticating</string>
+			<key>Source</key>
+			<string>sites.rb</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Select site</string>
+			<key>Source</key>
+			<string>select.html</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Uploading</string>
+			<key>Source</key>
+			<string>upload.rb</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Completed</string>
+			<key>Source</key>
+			<string>complete.html</string>
+		</dict>
+	</array>
+</dict>
+</plist>

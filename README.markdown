@@ -1,0 +1,1 @@
+Snippets to posterous plugin

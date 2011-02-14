@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset='utf-8'>
+    <title>Select</title>
+    <meta name="author" content="Atushi Nagase" />
+    <link href="default.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" charset="utf-8" src="Scrippet.js"></script>
+    <script type="text/javascript" charset="utf-8" src="js/common.js"></script>
+    <script type="text/javascript" charset="utf-8" src="js/select.js"></script>
+  </head>
+  <body class="select">
+    <div id="wrapper">
+      <p class="info">Select site for upload</p>
+      <p class="input">
+        <select id="sites"></select>
+      </p>
+      <p class="check">
+        <label for="is-private">
+          <input type="checkbox" id="is-private" onclick="$('autopost').disabled = this.checked;" />
+          Private post
+        </label>
+      </p>
+      <p class="check">
+        <label for="autopost">
+          <input type="checkbox" id="autopost" />
+          Autopost
+        </label>
+      </p>
+    </div>
+  </body>
+</html>

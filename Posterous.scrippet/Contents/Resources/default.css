@@ -1,0 +1,7 @@
+
+#wrapper { width:40em; margin:0 auto; }
+p.info { margin:0; padding:2em 0; font-weight:bold; }
+p.check, p.input { margin:0; padding:0.5em 0; }
+p.input label { display:inline-block; width:7em; }
+p.input input { width:25em; }
+.error { border:1px solid #c00; background:#fee; color:#c00; text-align:center; margin-top:2em; padding:2em 0; }
