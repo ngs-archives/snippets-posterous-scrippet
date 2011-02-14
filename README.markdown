@@ -1,9 +1,9 @@
 #Posterous
 [Snippets](http://www.snippetsapp.com/) plugin ( called ' [Scrippet](http://www.snippetsapp.com/extras/scrippets/) ' ) for [Posterous](http://posterous.com/)
 
-**CURRENTLY DEVELOPMENT VERSION ONLY.**
+[Download](https://github.com/ngs/snippets-posterous-scrippet/downloads) latest version, unarchive and double click ' Posterous.scrippet '.
 
-To use this plugin, checkout from git repo.
+or checkout from git repo.
 
     $ git clone git://github.com/ngs/snippets-posterous-scrippet.git
     $ cd snippets-posterous-scrippet
