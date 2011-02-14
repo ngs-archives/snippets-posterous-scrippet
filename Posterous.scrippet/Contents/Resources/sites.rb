@@ -1,17 +1,16 @@
 $:[0,0] = './lib'
-require 'preposterous'
+require 'get_json'
 
 if ENV["SNIPPET_INDEX"].to_i() == 0
-
-  client = Preposterous::HTTPAuth.new(ENV['POSTEROUS_LOGIN_EMAIL'], ENV['POSTEROUS_LOGIN_PASSWORD'])
-  posterous = Preposterous::Base.new(client)
 
   begin
 
     ids = []
     names = []
+    
+    puts 'Getting sites...'
 
-    posterous.getsites.each do |site|
+    get_sites.each do |site|
       puts "Found site:##{site['id']} #{site['name']}"
       ids.push( site['id'] )
       names.push( site['name'] )

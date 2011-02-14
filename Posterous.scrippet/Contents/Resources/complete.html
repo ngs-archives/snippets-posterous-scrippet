@@ -2,14 +2,19 @@
 <html lang="en">
   <head>
     <meta charset='utf-8'>
-    <title>Login</title>
+    <title>Complete</title>
     <meta name="author" content="Atushi Nagase" />
     <link href="default.css" rel="stylesheet" type="text/css" />
     <script type="text/javascript" charset="utf-8" src="Scrippet.js"></script>
     <script type="text/javascript" charset="utf-8" src="js/common.js"></script>
     <script type="text/javascript" charset="utf-8" src="js/complete.js"></script>
   </head>
-  <body>
-      <p id="confirmation"></p>
+  <body class="complete">
+    <div id="wrapper">
+      <p class="info">The following snippets have been successfully uploaded:</p>
+      <ol id="snippets-list"></ol>
+      <p class="button"><button id="copy-all-button">Copy snippet URL</button></p>
+      <p id="copy-note"></p>
+    </div>
   </body>
 </html>

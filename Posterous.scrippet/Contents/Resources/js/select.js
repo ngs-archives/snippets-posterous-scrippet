@@ -44,9 +44,11 @@ function final(scrippet) {
     autopost  = !checkAutopost.disabled && checkAutopost.checked ? "1" : "";
 
   for(var i=0;i<snippets.length;i++) {
-    snippets[i].setProperty("POSTEROUS_SITE_ID", siteId );
-    snippets[i].setProperty("POSTEROUS_IS_PRIVATE", isPrivate );
-    snippets[i].setProperty("POSTEROUS_AUTOPOST", autopost );
+    var snippet = snippets[i];
+    snippet.setProperty("POSTEROUS_SITE_ID", siteId );
+    snippet.setProperty("POSTEROUS_IS_PRIVATE", isPrivate );
+    snippet.setProperty("POSTEROUS_AUTOPOST", autopost );
+    snippet.setProperty("POSTEROUS_SNIPPET_URL","");
   }
 
   Scrippet.storePersistentItem("POSTEROUS_DEFAULT_SITE", siteId);

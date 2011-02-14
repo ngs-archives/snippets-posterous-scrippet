@@ -46,7 +46,7 @@
 			<key>Name</key>
 			<string>Uploading</string>
 			<key>Source</key>
-			<string>upload.rb</string>
+			<string>post.rb</string>
 		</dict>
 		<dict>
 			<key>Name</key>
