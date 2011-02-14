@@ -22,6 +22,6 @@ Use [GitHub Issues](https://github.com/ngs/snippets-posterous-scrippet/issues) O
 
 ##AUTHOR
 
-**Atushi Nagase** http://ngsdev.org/
+**Atushi Nagase** [http://ngsdev.org/](http://ngsdev.org/)
 
 
