@@ -6,7 +6,7 @@
 To use this plugin, checkout from git repo.
 
     $ git clone git://github.com/ngs/snippets-posterous-scrippet.git
-    $ cd snippets-posterous-scrippet;
+    $ cd snippets-posterous-scrippet
     $ open Posterous.scrippet
 
 Then Snippets become active, `Share via Posterous` item will be added to bundles list.
